@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/images/logo.png"><title>myDoc</title><meta name="description" content="这是我的 VuePress 主题博客">
+    <link rel="preload" href="/assets/style-CSFhkpmI.css" as="style"><link rel="stylesheet" href="/assets/style-CSFhkpmI.css">
+    <link rel="modulepreload" href="/assets/app-o-Jq39TM.js"><link rel="modulepreload" href="/assets/404.html-D9jbXqUC.js">
+    <link rel="prefetch" href="/assets/index.html-CbDzSYbb.js" as="script"><link rel="prefetch" href="/assets/index.html-BToHq9op.js" as="script"><link rel="prefetch" href="/assets/index.html-Cy9_9d6g.js" as="script"><link rel="prefetch" href="/assets/index.html-CyGUSrlQ.js" as="script"><link rel="prefetch" href="/assets/mac.html-DC0rbIF9.js" as="script"><link rel="prefetch" href="/assets/javaBean链式调用.html-B5fIJCx-.js" as="script"><link rel="prefetch" href="/assets/index.html-D-jryhAg.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-acaab3bc><main class="page" data-v-acaab3bc><div class="theme-default-content" vp-content data-v-acaab3bc><h1 data-v-acaab3bc>404</h1><blockquote data-v-acaab3bc>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/" data-v-acaab3bc>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-o-Jq39TM.js" defer></script>
+  </body>
+</html>
